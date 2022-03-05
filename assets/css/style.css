@@ -1,0 +1,156 @@
+
+/*This applies small formatting tweaks to the whole page*/
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+/*Colours the links at the top of the page*/
+body {
+  background-color: #d9dcd6;
+}
+
+/*Affects the navigation element of the page*/
+nav {
+  padding: 20px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-color: #2a607c;
+  color: #ffffff;
+}
+
+nav h1 {
+  display: inline-block;
+  font-size: 36px;
+}
+
+nav h1 .portfolio {
+  color: #99b57d;
+}
+
+nav div {
+  padding-top: 15px;
+  margin-right: 20px;
+  float: right;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+}
+
+nav div ul {
+  list-style-type: none;
+}
+
+nav div ul li {
+  display: inline-block;
+  margin-left: 25px;
+}
+
+/*affects the colour/decoration of links "a"*/
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/*affects the font size of paragraphs "p"*/
+p {
+  font-size: 16px;
+}
+
+/*affects the profile pic*/
+
+.profilepic {
+  position: absolute;
+  margin-top: 50px;
+  margin-left: 50px;
+  width: 25%;
+  border-radius: 50%;
+}
+
+/*affects the cover photo*/
+
+.coverphoto {
+  position: static;
+  height: 600px;
+  width: 100%;
+  margin-bottom: 25px;  
+}
+
+section {
+  width: 75%;
+  display: block;
+  float: right;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 50px;
+  height: 150px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: #0072bb;
+  color: #ffffff;
+}
+
+/*affects the main element of the page*/
+main {
+  width: 75%;
+  display: block;
+  float: right;
+  margin-left: 50px;
+  margin-right: 50px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
+}
+
+/*affects the three articles in the main element area*/
+article {
+  margin-bottom: 20px;
+  padding: 50px;
+  height: 200px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: #0072bb;
+  color: #ffffff;
+}
+
+/*keeps the images in the main element a reasonable size*/
+article img {
+  max-height: 200px;
+}
+
+/*affects the header h3 of the main element*/
+article h3 {
+  margin-bottom: 20px;
+  font-size: 36px;
+}
+
+/*affects the footer of the page*/
+footer {
+  width: 75%;
+  display: block;
+  float: right;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 50px;
+  height: 150px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: #0072bb;
+  color: #ffffff;
+}
+
+footer ul {
+  padding-top: 15px;
+  margin-right: 20px;
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+}
+
+footer ul {
+  list-style-type: none;
+}
+
+footer ul li {
+  display: inline-block;
+  margin-left: 25px;
+}
