@@ -75,6 +75,22 @@ p {
   margin-bottom: 25px;  
 }
 
+aside {
+  position: absolute;
+  clear: both;
+  float: left;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 50px;
+  height: 790px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: #0072bb;
+  color: #ffffff;
+}
+
 section {
   width: 75%;
   display: block;
@@ -89,19 +105,20 @@ section {
   background-color: #0072bb;
   color: #ffffff;
 }
-
 /*affects the main element of the page*/
 main {
   width: 75%;
-  display: block;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px 2em;
   float: right;
   margin-left: 50px;
-  margin-right: 50px;
+  margin-right: 20px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  
+  justify-content: space-evenly;
 }
 
-/*affects the three articles in the main element area*/
+/*affects the articles in the main element area*/
 article {
   margin-bottom: 20px;
   padding: 50px;
