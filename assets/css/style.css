@@ -76,6 +76,58 @@ p {
 }
 
 aside {
+  width: 20%;
+  clear: left;
+  float: left;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: #0072bb;
+  color: #ffffff;
+  text-align: center;
+  margin: 20px;
+  padding: 50px;
+}
+
+article {
+  width: 70%;
+  clear: right;
+  float: right;
+  text-align: center;
+  margin: 20px;
+  padding: 50px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: #0072bb;
+  color: #ffffff;
+}
+
+.about-me {
+  width: 70%;
+  clear: right;
+  float: right;
+  text-align: center;
+  margin: 20px;
+  padding: 50px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: #0072bb;
+  color: #ffffff;
+}
+
+.main-example, .example1, .example2, .example3, .example4 {
+  margin: 20px;
+  padding: 20px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: #0072bb;
+  color: #ffffff;
+}
+
+.example1, .example3 {
+  float: left;
+}
+
+.example2, .example4 {
+  float: right;
+}
+
+/* aside - about me, work, etc. {
   position: absolute;
   clear: both;
   float: left;
@@ -105,7 +157,7 @@ section {
   background-color: #0072bb;
   color: #ffffff;
 }
-/*affects the main element of the page*/
+
 main {
   width: 75%;
   display: grid;
@@ -118,7 +170,7 @@ main {
   justify-content: space-evenly;
 }
 
-/*affects the articles in the main element area*/
+
 article {
   margin-bottom: 20px;
   padding: 50px;
@@ -128,18 +180,18 @@ article {
   color: #ffffff;
 }
 
-/*keeps the images in the main element a reasonable size*/
+
 article img {
   max-height: 200px;
 }
 
-/*affects the header h3 of the main element*/
+
 article h3 {
   margin-bottom: 20px;
   font-size: 36px;
 }
 
-/*affects the footer of the page*/
+
 footer {
   width: 75%;
   display: block;
@@ -170,4 +222,4 @@ footer ul {
 footer ul li {
   display: inline-block;
   margin-left: 25px;
-}
+} */
