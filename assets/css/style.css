@@ -153,6 +153,10 @@ article {
   float: right;
 }
 
+main section article div img:hover {
+  opacity: 0.45;
+}
+
 main section div ul {
   list-style-type: none;
 }
