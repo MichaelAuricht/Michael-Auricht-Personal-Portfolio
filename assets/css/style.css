@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: #d9dcd6;
+  background-color: #001d30;
 }
 
 nav {
@@ -42,8 +42,13 @@ nav div ul li {
 }
 
 a {
-  color: #ffffff;
+  color: #cdddcc;
   text-decoration: none;
+}
+
+a:hover {
+  color: rgb(192, 231, 53);
+  text-decoration: underline;
 }
 
 p {
@@ -61,27 +66,42 @@ p {
 .coverphoto {
   position: static;
   height: 600px;
-  width: 100%;
-  margin-bottom: 25px;  
+  width: 100%;  
 }
 
 article div h2, article div p {
   position: absolute;
 }
 
-aside {
+article div h2 {
+  margin-top: -10%;
+  margin-left: 5%;
+  text-shadow: 2px 2px #00000088;
+}
+
+article div p {
+  margin-top: -5%;
+  margin-left: 5%;
+  text-shadow: 2px 2px #00000088;
+}
+#my-work-aside, #about-me-aside, #contact-me-aside {
   width: 15%;
   clear: left;
   float: left;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  color: #000000;
+  color: #ffffff;
   text-align: center;
-  margin-bottom: 20px;
-  padding: 50px;
+  margin-left: 30px;
+  padding: 40px;
 }
 
-aside div {
-  height:max-content;
+#contact-me-aside {
+  position: relative;
+  bottom: -250px;
+}
+
+#my-work-aside {
+  height: 775px;
 }
 
 article {
@@ -101,6 +121,11 @@ article {
   color: #ffffff;
 }
 
+.contact-me-text {
+  word-spacing: 200px;
+  font-size: 20px;
+}
+
 .main-example, .example1, .example2, .example3, .example4 {
   margin: 1px;
   padding: 1px;
@@ -110,13 +135,14 @@ article {
   clear: right;
 }
 
-.example1, .example2, .example3, .example4 {
-  width: 49%;
-  height: 49%;
+.main-example:hover, .example1:hover, .example2:hover, .example3:hover, .example4:hover {
+  color: yellow;
+  text-decoration: underline;
 }
 
-.secondary-examples {
-  flex-wrap: wrap;
+.example1, .example2, .example3, .example4 {
+  width: 49.5%;
+  height: 49.5%;
 }
 
 .example1, .example3 {
@@ -127,11 +153,11 @@ article {
   float: right;
 }
 
-main section div div ul {
+main section div ul {
   list-style-type: none;
 }
 
-main section div div ul li {
+main section div ul li {
   display: inline-block;
   margin-left: 25px;
 }
