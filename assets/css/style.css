@@ -71,6 +71,7 @@ p {
 
 article div h2, article div p {
   position: absolute;
+  text-align: right;
 }
 
 article div h2 {
@@ -124,6 +125,10 @@ article {
 .contact-me-text {
   word-spacing: 200px;
   font-size: 20px;
+}
+
+.main-example img {
+  filter:blur(4px);
 }
 
 .main-example, .example1, .example2, .example3, .example4 {
