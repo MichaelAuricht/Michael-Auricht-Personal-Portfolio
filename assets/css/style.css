@@ -98,7 +98,6 @@ article div p {
 
 #contact-me-aside {
   position: relative;
-  bottom: -250px;
 }
 
 #my-work-aside {
@@ -123,7 +122,6 @@ article {
 }
 
 .contact-me-text {
-  word-spacing: 200px;
   font-size: 20px;
 }
 
